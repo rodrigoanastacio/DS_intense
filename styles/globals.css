@@ -9,10 +9,28 @@
   padding: 0;
 }
 
+html {
+  font-family: var(--font-primary);
+}
+
+img {
+  width: 100%;
+}
+
 :root {
   --white: #ffffff;
-  --off-white: #EEEDE8;
-  --golden: #E8CDA2;
+  --off-white: #eeede8;
+  --golden: #e8cda2;
 
   --black-500: #121214;
+  --black-600: #0A0A11
+
+  --font-primary: 'Source Serif Pro', serif;
+
+  --headline-font-size: 2.375rem; /* 38px */
+  --subHeadline-font-size: 1.25rem; /* 18px */
+  --cta-font-size: 1.5rem; /* 28px */
+
+  --line-height-title: 125%;
+  --line-height-text: 150%;
 }

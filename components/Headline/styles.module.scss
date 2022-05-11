@@ -1,0 +1,29 @@
+.headline {
+  width: 100%;
+  flex: 2;
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+    margin-bottom: inherit;
+  }
+
+  h1 {
+    font-size: var(--headline-font-size);
+    line-height: var(--line-height-title);
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: var(--off-white);
+  }
+
+  strong {
+    color: var(--golden);
+  }
+
+  p {
+    font-size: var(--subHeadline-font-size);
+    line-height: var(--line-height-text);
+    color: var(--off-white);
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+}
