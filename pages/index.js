@@ -74,8 +74,6 @@ export default function Home() {
 
           <div className={styles.wrapper}>
             <div className={styles.content}>
-              <img src="shape-polygon.svg" alt="Shape" />
-
               <h3>
                 Mas durante esses 2 anos prestando Consultorias, pude observar
                 os problemas de muitas empreendedoras, como:
