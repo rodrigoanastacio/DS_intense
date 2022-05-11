@@ -13,6 +13,23 @@ html {
   font-family: var(--font-primary);
 }
 
+body {
+  position: relative;
+  background-color: var(--black-500);
+
+  &::before {
+    content: '';
+    background: url(../public/shape.svg) no-repeat right top;
+    background-size: 60%;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
 img {
   width: 100%;
 }
