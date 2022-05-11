@@ -39,6 +39,8 @@ img {
   --off-white: #eeede8;
   --golden: #e8cda2;
 
+  --title-color: var(--off-white);
+
   --black-500: #121214;
   --black-600: #0A0A11
 
@@ -46,6 +48,7 @@ img {
 
   --headline-font-size: 2.375rem; /* 38px */
   --subHeadline-font-size: 1.25rem; /* 18px */
+  --title-font-size: 1.875rem; /* 30px */
   --cta-font-size: 1.5rem; /* 28px */
 
   --line-height-title: 125%;

@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import Hero from '../components/Hero';
 import Headline from '../components/Headline';
+import Title from '../components/Title';
 
 import styles from '../styles/Home.module.scss';
 
@@ -15,9 +16,9 @@ export default function Home() {
         </div>
       </Hero>
 
-      <section>
+      <section className={styles.section}>
         <div className={styles.container}>
-          <h2>Lorem ipsum dolor sit amet.</h2>
+          <Title title="Acredito que você viu no digital a oportunidade de construir um negócio e conquistar liberdade financeira." />
         </div>
       </section>
     </>
